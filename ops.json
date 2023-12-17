@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "6cbb3ac6-add6-349e-a157-1555d9449d2b",
+    "name": "ramatwo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
