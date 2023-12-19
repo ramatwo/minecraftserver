@@ -1,4 +1,4 @@
-[03:11:04] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\oneplayersleepmodoriginal-1.0.jar' failed to load!
+[16:01:34] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\oneplayersleepmodoriginal-1.0.jar' failed to load!
 java.lang.RuntimeException: Directory 'plugins\oneplayersleepmodoriginal-1.0.jar' failed to load!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.19.4.jar:git-Paper-550]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.19.4.jar:git-Paper-550]
@@ -24,7 +24,7 @@ java.lang.RuntimeException: Directory 'plugins\oneplayersleepmodoriginal-1.0.jar
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins\oneplayersleepmodoriginal-1.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.19.4.jar:git-Paper-550]
 	... 20 more
-[03:11:04] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\theweedmod-2.2.2a.jar' failed to load!
+[16:01:34] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\theweedmod-2.2.2a.jar' failed to load!
 java.lang.RuntimeException: Directory 'plugins\theweedmod-2.2.2a.jar' failed to load!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.19.4.jar:git-Paper-550]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.19.4.jar:git-Paper-550]
@@ -50,7 +50,7 @@ java.lang.RuntimeException: Directory 'plugins\theweedmod-2.2.2a.jar' failed to 
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins\theweedmod-2.2.2a.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.19.4.jar:git-Paper-550]
 	... 20 more
-[03:11:04] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\[1.8]Treecapitator-universal-2.0.5.jar' failed to load!
+[16:01:34] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\[1.8]Treecapitator-universal-2.0.5.jar' failed to load!
 java.lang.RuntimeException: Directory 'plugins\[1.8]Treecapitator-universal-2.0.5.jar' failed to load!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.19.4.jar:git-Paper-550]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.19.4.jar:git-Paper-550]
@@ -76,3 +76,74 @@ java.lang.RuntimeException: Directory 'plugins\[1.8]Treecapitator-universal-2.0.
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins\[1.8]Treecapitator-universal-2.0.5.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.19.4.jar:git-Paper-550]
 	... 20 more
+[16:01:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:01:48] [ServerMain/INFO]: Loaded 7 recipes
+[16:01:50] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[16:01:50] [Server thread/INFO]: Loading properties
+[16:01:50] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[16:01:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:01:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:01:50] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:01:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:01:51] [Server thread/INFO]: Default game type: SURVIVAL
+[16:01:51] [Server thread/INFO]: Generating keypair
+[16:01:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:01:52] [Server thread/INFO]: Using default channel type
+[16:01:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:01:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:01:53] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.4
+[16:01:53] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.1
+[16:01:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:01:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.4
+[16:01:55] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R3[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[16:01:55] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[16:01:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:01:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:01:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:01:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:01:55] [Server thread/INFO]: Preparing level "sexworld"
+[16:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:01:57] [Server thread/INFO]: Time elapsed: 257 ms
+[16:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:01:58] [Server thread/INFO]: Time elapsed: 43 ms
+[16:01:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:01:58] [Server thread/INFO]: Time elapsed: 28 ms
+[16:01:58] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.1
+[16:01:58] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:01:58] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:01:59] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:01:59] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:01:59] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[16:02:00] [Server thread/INFO]: Starting GS4 status listener
+[16:02:00] [Server thread/INFO]: Thread Query Listener started
+[16:02:00] [Server thread/INFO]: Running delayed init tasks
+[16:02:00] [Server thread/INFO]: Done (10.360s)! For help, type "help"
+[16:02:00] [Server thread/INFO]: Timings Reset
+[16:02:00] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.4[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m677e967[0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[16:02:02] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:02:20] [User Authenticator #0/INFO]: UUID of player RamaTwo is 1ea48136-bb98-3185-9042-b6a96bb70c2b
+[16:02:21] [Server thread/INFO]: RamaTwo joined the game
+[16:02:21] [Server thread/INFO]: RamaTwo[/192.168.1.33:53339] logged in with entity id 153 at ([sexworld]-7.5, 102.0, -0.5)
+[16:04:21] [Server thread/INFO]: RamaTwo lost connection: Login timed out!
+[16:04:21] [Server thread/INFO]: RamaTwo left the game
+[16:05:28] [User Authenticator #1/INFO]: UUID of player RamaTwo is 1ea48136-bb98-3185-9042-b6a96bb70c2b
+[16:05:29] [Server thread/INFO]: RamaTwo joined the game
+[16:05:29] [Server thread/INFO]: RamaTwo[/192.168.1.33:53350] logged in with entity id 462 at ([sexworld]-7.5, 102.0, -0.5)
+[16:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 42015ms or 840 ticks behind
+[16:06:21] [Server thread/INFO]: RamaTwo lost connection: Timed out
+[16:06:21] [Server thread/INFO]: RamaTwo left the game
+[16:06:30] [User Authenticator #1/INFO]: UUID of player RamaTwo is 1ea48136-bb98-3185-9042-b6a96bb70c2b
+[16:06:30] [Server thread/INFO]: RamaTwo joined the game
+[16:06:30] [Server thread/INFO]: RamaTwo[/192.168.1.33:53353] logged in with entity id 484 at ([sexworld]-7.5, 102.0, -0.5)
